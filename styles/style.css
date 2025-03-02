@@ -18,6 +18,14 @@ a:hover {
   color: #e5e5e5;
 }
 
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding-left: 0;
+}
+
 span {
   color: #ff5533;
 }
@@ -623,4 +631,135 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+/* footer */
+
+.footer {
+  background-color: #1e2027;
+  padding-top: 132px;
+}
+
+.footer-cont {
+  padding-top: 48px;
+  max-width: 608px;
+}
+
+.footer-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #ffffff;
+  padding-bottom: 16px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 25px;
+  margin-top: 16px;
+}
+
+.foot-nav-capt {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  opacity: 30%;
+}
+
+.foot-nav-link {
+  color: #e5e5e5;
+  font-family: "Roboto Mono", monospace;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.foot-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 5px;
+  margin-bottom: 24px;
+}
+
+.foot-col {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+}
+
+.icons-cont {
+  height: 22px;
+  flex-grow: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 67px;
+  padding: 0;
+}
+
+.telegram-chat {
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: uppercase;
+  text-align: right;
+}
+
+.career-btn {
+  color: #f3f3f3;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+  border: 1px solid #f3f3f3;
+  background-color: transparent;
+  width: 230px;
+  height: 50px;
+}
+
+.pay-row {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 360px;
+  margin-top: 25px;
+  align-items: center;
+}
+
+.pay-nav-link {
+  color: #e5e5e5;
+  font-family: "Roboto Mono", monospace;
+  font-size: 10px;
+  font-weight: 400;
+  opacity: 80%;
+  padding: 10px 0;
+}
+
+.pay-img {
+  padding: 0;
+  width: 69px;
+}
+
+.copyright {
+  color: #ffffff;
+  font-family: "Roboto Mono", monospace;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 1.6;
+  opacity: 30%;
+  margin: 13px 0 48px 0;
 }
