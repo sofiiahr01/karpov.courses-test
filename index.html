@@ -3,159 +3,138 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
     <link rel="stylesheet" href="./fonts/fonts.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <title>Karpov.course</title>
   </head>
   <body>
     <header class="header">
-      <div class="container">
-        <nav class="navbar row">
-          <div class="name col">
-            <a href="#" class="name-logo">KARPOV.COURSES</a>
-          </div>
-          <div class="container-fluid col">
-            <button class="navbar-toggler" type="button">
-              <span><img src="./images/icons/burger.svg" alt="burger" /></span>
-            </button>
-          </div>
-        </nav>
+      <div class="container header-cont">
+        <div class="name">
+          <a href="#" class="name-logo">KARPOV.COURSES</a>
+        </div>
+        <div class="burger-cont">
+          <button class="burger-btn" type="button">
+            <span><img src="./images/icons/burger.svg" alt="burger" /></span>
+          </button>
+        </div>
       </div>
     </header>
     <main>
-      <section class="main-section section">
+      <section class="main-section">
         <div class="container main-cont">
-          <span class="pre-caption">КУРС</span>
-          <h1 class="main sect-name">Hard Аналитика данных</h1>
+          <span class="pre-caption">курс</span>
+          <h1 class="sect-name">Hard Аналитика данных</h1>
           <p class="main-descr">Повысьте грейд за 6 месяцев</p>
           <button class="course-btn">записаться на курс</button>
         </div>
       </section>
       <section class="about-course-section">
-        <div class="container">
-          <div class="row about-cont">
-            <div class="col about-card">
-              <img
-                src="./images/icons/icon-calendar.png"
-                alt="icon-calendar"
-                class="about-icon"
-              />
-              <p class="date">СТАРТ ПОТОКА <span>3 ОКТЯБРЯ</span></p>
-            </div>
-            <div class="col about-card">
-              <img
-                src="./images/icons/icon-level.png"
-                alt="icon-level"
-                class="about-icon"
-              />
-              <p class="date">
-                УРОВЕНЬ СЛОЖНОСТИ <span>JUNIOR+ / MIDDLE</span>
-              </p>
-            </div>
-            <div class="col about-card">
-              <img
-                src="./images/icons/icon-expert.png"
-                alt="icon-expert"
-                class="about-icon"
-              />
-              <p class="date pad">КУРС <span>ОТ ЭКСПЕРТОВ ИНДУСТРИИ</span></p>
-            </div>
-            <div class="col about-card">
-              <img
-                src="./images/icons/icon-online-lesson.png"
-                alt="icon-online-lesson"
-                class="about-icon"
-              />
-              <p class="date">
-                ФОРМАТ ОБУЧЕНИЯ <span>ВИДЕООЛЕКЦИИ И ЗАДАНИЯ</span>
-              </p>
-            </div>
+        <div class="container about-cont">
+          <div class="about-card">
+            <img
+              src="./images/icons/icon-calendar.png"
+              alt="icon-calendar"
+              class="about-icon"
+            />
+            <p class="date">СТАРТ ПОТОКА <span>3 ОКТЯБРЯ</span></p>
           </div>
-        </div>
-      </section>
-      <section class="match-section section">
-        <div class="container match-cont">
-          <h1 class="sect-name">КОМУ ПОДОЙДЕТ КУРС <span>//</span></h1>
-          <div class="categories">
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="./images/graphic1.png"
-                    class="card-img-top"
-                    alt="graphic1"
-                  />
-                  <div class="card-body">
-                    <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ JUNIOR</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="./images/graphic2.png"
-                    class="card-img-top"
-                    alt="graphic2"
-                  />
-                  <div class="card-body">
-                    <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ MIDDLE</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="./images/graphic3.png"
-                    class="card-img-top"
-                    alt="graphic3"
-                  />
-                  <div class="card-body">
-                    <p class="card-text">ПРОДУКТОВЫЙ АНАЛИТИК</p>
-                  </div>
-                </div>
-              </div>
-              <div class="col">
-                <div class="card">
-                  <img
-                    src="./images/graphic4.png"
-                    class="card-img-top"
-                    alt="graphic4"
-                  />
-                  <div class="card-body">
-                    <p class="card-text">BI-АНАЛИТИК</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div class="about-card">
+            <img
+              src="./images/icons/icon-level.png"
+              alt="icon-level"
+              class="about-icon"
+            />
+            <p class="date">УРОВЕНЬ СЛОЖНОСТИ <span>JUNIOR+ / MIDDLE</span></p>
           </div>
-          <div class="level">
-            <p class="level-descr">
-              На курсе <span>«Hard Аналитика данных»</span> вы освоите навыки,
-              необходимые аналитику уровня middle, <br />а после курса сможете
-              претендовать на повышение грейда как внутри компании, так и при
-              поиске работы.
+          <div class="about-card">
+            <img
+              src="./images/icons/icon-expert.png"
+              alt="icon-expert"
+              class="about-icon"
+            />
+            <p class="date pad">КУРС <span>ОТ ЭКСПЕРТОВ ИНДУСТРИИ</span></p>
+          </div>
+          <div class="about-card">
+            <img
+              src="./images/icons/icon-online-lesson.png"
+              alt="icon-online-lesson"
+              class="about-icon"
+            />
+            <p class="date">
+              ФОРМАТ ОБУЧЕНИЯ <span>ВИДЕООЛЕКЦИИ И ЗАДАНИЯ</span>
             </p>
           </div>
         </div>
       </section>
-      <section class="about-job-section section">
-        <div class="container">
-          <h1 class="sect-name job">
+      <section class="match-section">
+        <div class="container match-cont">
+          <h1 class="sect-name">КОМУ<br />ПОДОЙДЕТ КУРС <span>//</span></h1>
+          <div class="cards">
+            <div class="categories">
+              <article class="card">
+                <img
+                  src="./images/graphic1.png"
+                  class="card-img-top"
+                  alt="graphic1"
+                />
+                <div class="card-body">
+                  <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ JUNIOR</p>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  src="./images/graphic2.png"
+                  class="card-img-top"
+                  alt="graphic2"
+                />
+                <div class="card-body">
+                  <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ MIDDLE</p>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  src="./images/graphic3.png"
+                  class="card-img-top"
+                  alt="graphic3"
+                />
+                <div class="card-body">
+                  <p class="card-text">ПРОДУКТОВЫЙ АНАЛИТИК</p>
+                </div>
+              </article>
+              <article class="card">
+                <img
+                  src="./images/graphic4.png"
+                  class="card-img-top"
+                  alt="graphic4"
+                />
+                <div class="card-body">
+                  <p class="card-text">BI-АНАЛИТИК</p>
+                </div>
+              </article>
+            </div>
+            <div class="level">
+              <p class="level-descr">
+                На курсе <span>«Hard Аналитика данных»</span> вы освоите навыки,
+                необходимые аналитику уровня middle, <br />а после курса сможете
+                претендовать на повышение грейда как внутри компании, так и при
+                поиске работы.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="about-job-section">
+        <div class="container about-job-cont">
+          <h1 class="sect-name">
             КТО ТАКОЙ MIDDLE АНАЛИТИК ДАННЫХ <span>>></span>
           </h1>
-          <div class="job-card">
-            <div class="job-card-body">
+          <div class="cards-cont">
+            <div class="job-card">
               <p class="job-card-text">
                 При составлении программы <br />
-                мы опирались на опыт практиков индустрии и нанимающих лидов,
+                мы опирались на опыт практиков индустрии и нанимающих
+                <br />лидов,
                 <br />
                 а также проанализировали карты компетенций крупных российских
                 tech-компаний.
@@ -166,47 +145,55 @@
                 alt="graphs-diagram-img"
               />
             </div>
-          </div>
-          <div class="conclusions">
-            <h2 class="concl-cap">МЫ СДЕЛАЛИ <span>2 ВАЖНЫХ ВЫВОДА:</span></h2>
-            <dl class="row">
-              <dt class="col-sm-3 concl-span">1</dt>
-              <dd class="col-sm-9 concl-descr">
-                Для middle аналитиков
-                <span>важны не только hard, <br />но и soft skills</span> —
-                именно поэтому в обучении <br />мы уделяем особое внимание
-                общению с заказчиками <br />и объясняем, как преодолеть
-                сложности кросс- <br />командной коммуникации.
-              </dd>
-            </dl>
-            <dl class="row">
-              <dt class="col-sm-3 concl-span">2</dt>
-              <dd class="col-sm-9 concl-descr">
-                Специалист растет, когда успешно справляется <br />с новыми для
-                себя задачами или
-                <span
-                  >решает проблемы шире <br />своей зоны ответственности.</span
-                >
-                Это возможно только <br />тогда, когда багаж знаний включает
-                не только основы <br />работы с данными, но и темы из смежных
-                областей, — <br />поэтому в программе курса вы найдете 4 модуля
-                <br />из разных сфер Data Science.
-              </dd>
-            </dl>
+            <div class="concl-cont">
+              <h2 class="concl-cap">
+                МЫ СДЕЛАЛИ <span>2 ВАЖНЫХ ВЫВОДА:</span>
+              </h2>
+              <div class="conclusions">
+                <div class="concl-row">
+                  <span class="number-span">1</span>
+                  <p class="concl-descr">
+                    Для middle аналитиков
+                    <span
+                      >важны не только <br />hard, <br />но и soft skills</span
+                    > — именно поэтому <br />в обучении <br />мы уделяем особое
+                    внимание общению с заказчиками <br />и объясняем, как
+                    преодолеть сложности <br />кросс- <br />командной
+                    коммуникации.
+                  </p>
+                </div>
+                <div class="concl-row">
+                  <span class="number-span">2</span>
+                  <p class="concl-descr">
+                    Специалист растет, когда успешно <br />справляется
+                    <br />с новыми для себя задачами или
+                    <span
+                      >решает <br />проблемы шире <br />своей зоны
+                      ответственности.</span
+                    >
+                    Это возможно <br />только <br />тогда, когда багаж знаний
+                    включает <br />не только основы <br />работы с данными,
+                    но и темы из смежных областей, — <br />поэтому в программе
+                    курса вы найдете 4 <br />модуля <br />из разных сфер Data
+                    Science.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
-      <section class="relevance-section section">
-        <div class="container">
+      <section class="relevance-section">
+        <div class="container relevance-cont">
           <h1 class="sect-name">ПОЧЕМУ КУРС АКТУАЛЕН <span>//</span></h1>
           <p class="relevance-descr">
             Программа курса <span>«Hard Аналитика данных»</span> поможет
-            в решении проблем, с которыми нередко <br />сталкиваются аналитики
-            крупных компаний — даже если вы лично пока с ними еще
-            не сталкивались.
+            <br />в решении проблем, с которыми нередко <br />сталкиваются
+            аналитики крупных компаний — даже если <br />вы лично пока с ними
+            еще не сталкивались.
           </p>
-          <div class="row">
-            <div class="col relevance-card">
+          <div class="rel-wrap">
+            <div class="relevance-card">
               <h2 class="card-capt">
                 СОЗДАНИЕ <span>НЕНУЖНЫХ ОТЧЕТНОСТЕЙ</span>
               </h2>
@@ -223,7 +210,7 @@
                 отвечать на запросы бизнеса.
               </p>
             </div>
-            <div class="col relevance-card">
+            <div class="relevance-card">
               <h2 class="card-capt">
                 <span>НЕЭФФЕКТИВНАЯ КОММУНИКАЦИЯ</span> С КОМАНДОЙ DWH
               </h2>
@@ -238,9 +225,7 @@
                 пайплайны обработки данных, если у компании нет команды DWH.
               </p>
             </div>
-          </div>
-          <div class="row">
-            <div class="col relevance-card">
+            <div class="relevance-card">
               <h2 class="card-capt">
                 ЗАДАЧИ, КОТОРЫЕ НЕЛЬЗЯ РЕШИТЬ
                 <span>СТНДАРТНЫМИ МЕТОДАМИ</span>
@@ -258,7 +243,7 @@
                 невозможно.
               </p>
             </div>
-            <div class="col relevance-card">
+            <div class="relevance-card">
               <h2 class="card-capt">
                 НЕЗНАНИЕ МЕТОДОВ <span>МАШИННОГО ОБУЧЕНИЯ</span>
               </h2>
@@ -278,7 +263,7 @@
         </div>
       </section>
 
-      <section class="start-section section">
+      <!--<section class="start-section section">
         <div class="container">
           <h1 class="sect-name">ЧТО НУЖНО ДЛЯ НАЧАЛА <span>/?/</span></h1>
           <div class="row">
@@ -437,9 +422,9 @@
             <button type="submit" class="btn btn-primary">отправить</button>
           </form>
         </div>
-      </section>
+      </section>-->
     </main>
-    <footer class="footer">
+    <!--<footer class="footer">
       <div class="container">
         <div class="footer-name"><h3 class="foot-n">KARPOV.COURSES</h3></div>
         <hr />
@@ -575,11 +560,6 @@
           Лицензии № Л035-01298-77/00179689 от 11 апреля 2022 г.
         </div>
       </div>
-    </footer>
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+    </footer>-->
   </body>
 </html>
