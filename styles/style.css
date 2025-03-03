@@ -700,6 +700,7 @@ body {
 }
 
 .question-img {
+  max-width: 316px;
   margin-top: 64px;
   margin-bottom: 24px;
 }
