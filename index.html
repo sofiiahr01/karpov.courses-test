@@ -72,54 +72,69 @@
           <h1 class="sect-name">КОМУ<br />ПОДОЙДЕТ КУРС <span>//</span></h1>
           <div class="cards">
             <div class="categories">
-              <article class="card">
-                <img
-                  src="./images/graphic1.png"
-                  class="card-img-top"
-                  alt="graphic1"
-                />
-                <div class="card-body">
-                  <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ JUNIOR</p>
-                </div>
-              </article>
-              <article class="card">
-                <img
-                  src="./images/graphic2.png"
-                  class="card-img-top"
-                  alt="graphic2"
-                />
-                <div class="card-body">
-                  <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ MIDDLE</p>
-                </div>
-              </article>
-              <article class="card">
-                <img
-                  src="./images/graphic3.png"
-                  class="card-img-top"
-                  alt="graphic3"
-                />
-                <div class="card-body">
-                  <p class="card-text">ПРОДУКТОВЫЙ АНАЛИТИК</p>
-                </div>
-              </article>
-              <article class="card">
-                <img
-                  src="./images/graphic4.png"
-                  class="card-img-top"
-                  alt="graphic4"
-                />
-                <div class="card-body">
-                  <p class="card-text">BI-АНАЛИТИК</p>
-                </div>
-              </article>
+              <div class="shadow-wrap">
+                <div class="shadow"></div>
+                <article class="card">
+                  <img
+                    src="./images/graphic1.png"
+                    class="card-img-top"
+                    alt="graphic1"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ JUNIOR</p>
+                  </div>
+                </article>
+              </div>
+              <div class="shadow-wrap">
+                <div class="shadow"></div>
+                <article class="card">
+                  <img
+                    src="./images/graphic2.png"
+                    class="card-img-top"
+                    alt="graphic2"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">АНАЛИТИК ДАННЫХ УРОВНЯ MIDDLE</p>
+                  </div>
+                </article>
+              </div>
+              <div class="shadow-wrap">
+                <div class="shadow"></div>
+                <article class="card">
+                  <img
+                    src="./images/graphic3.png"
+                    class="card-img-top"
+                    alt="graphic3"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">ПРОДУКТОВЫЙ АНАЛИТИК</p>
+                  </div>
+                </article>
+              </div>
+              <div class="shadow-wrap">
+                <div class="shadow"></div>
+                <article class="card">
+                  <img
+                    src="./images/graphic4.png"
+                    class="card-img-top"
+                    alt="graphic4"
+                  />
+                  <div class="card-body">
+                    <p class="card-text">BI-АНАЛИТИК</p>
+                  </div>
+                </article>
+              </div>
             </div>
             <div class="level">
-              <p class="level-descr">
-                На курсе <span>«Hard Аналитика данных»</span> вы освоите навыки,
-                необходимые аналитику уровня middle, <br />а после курса сможете
-                претендовать на повышение грейда как внутри компании, так и при
-                поиске работы.
-              </p>
+              <div class="shadow-wrap">
+                <div class="shadow l-shadow"></div>
+                <p class="level-descr">
+                  На курсе <span>«Hard Аналитика данных»</span> вы освоите
+                  навыки, необходимые аналитику уровня middle, <br />а после
+                  курса сможете претендовать на повышение грейда как внутри
+                  компании, так и при поиске работы.
+                </p>
+              </div>
             </div>
           </div>
         </div>
@@ -348,7 +363,41 @@
                 <br />соответствовать <br />вашему уровню и целям.
               </p>
             </div>
-            <div class="form-div"></div>
+            <div class="form-div">
+              <form class="contact-form">
+                <input type="text" id="name1" name="name" placeholder="Имя" />
+                <div class="phone-input">
+                  <img
+                    src="./images/icons/r-flag.svg"
+                    alt="r-flag"
+                    class="flag"
+                  />
+                  <span class="form-span">+7</span>
+                  <input
+                    type="tel"
+                    id="phone1"
+                    name="phone"
+                    placeholder="(999) 999-9999"
+                    class="tel-input-ru"
+                  />
+                </div>
+                <input
+                  type="email"
+                  id="email1"
+                  name="email"
+                  placeholder="Почта"
+                />
+                <div class="checkbox-wrapper a1">
+                  <input type="checkbox" id="agreement1" class="checkbox" />
+                  <label for="agreement" class="agreement agreement1"
+                    >Я даю согласие на обработку моих
+                    <a href="#">персональных данных</a> и информирование в
+                    соответствии с публичной офертой.</label
+                  >
+                </div>
+                <button type="submit" class="form-btn">ОСТАВИТЬ ЗАЯВКУ</button>
+              </form>
+            </div>
           </div>
         </div>
       </section>
@@ -366,6 +415,40 @@
               alt="question-img"
               class="question-img"
             />
+            <form class="contact-form">
+              <input type="text" id="name" name="name" placeholder="Имя" />
+              <div class="phone-input">
+                <img
+                  src="./images/icons/usa-flag.svg"
+                  alt="usa-flag"
+                  class="flag"
+                />
+                <span class="form-span">+1</span>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  placeholder="(999) 999-9999"
+                  class="tel-input"
+                />
+              </div>
+              <input type="email" id="email" name="email" placeholder="Почта" />
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Ваш вопрос"
+                class="form-text"
+              ></textarea>
+              <div class="checkbox-wrapper">
+                <input type="checkbox" id="agreement" class="checkbox" />
+                <label for="agreement" class="agreement"
+                  >Я даю согласие на обработку моих
+                  <a href="#">персональных данных</a> и информирование в
+                  соответствии с публичной офертой.</label
+                >
+              </div>
+              <button type="submit" class="form-btn">ОТПРАВИТЬ</button>
+            </form>
           </div>
         </div>
       </section>
@@ -392,7 +475,7 @@
                 </li>
               </ul>
             </div>
-            <div class="col">
+            <div class="col nav-col">
               <h3 class="foot-nav-capt">Специализации</h3>
               <ul>
                 <li><a href="#" class="foot-nav-link">Аналитик данных</a></li>
@@ -503,7 +586,7 @@
         </nav>
         <div class="copyright">
           Образовательные услуги оказываются ООО «Карпов Курсы» на основании
-          Лицензии № Л035-01298-77/00179689 от 11 апреля 2022 г.
+          Лицензии <br />№ Л035-01298-77/00179689 от 11 апреля 2022 г.
         </div>
       </div>
     </footer>
